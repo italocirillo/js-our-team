@@ -1,3 +1,4 @@
+// ARRAY OGGETTI
 const team = [
     {
         nome: "Wayne Barnett",
@@ -30,8 +31,18 @@ const team = [
         immagine: "barbara-ramos-graphic-designer.jpg"
     }
 ];
+// ELEMENTI HTML
+const listaMembriTeam=document.getElementById("lista-membri-team");
+
+
 for(let i=0;i<team.length;i++){
+    listaMembriTeam.innerHTML += `
+    <li><h4>Membro ${i+1}</h4>
+        <ul class="informazioni-membro"></ul>
+    </li>`;
+    const informazioniMembro=document.querySelector(`li:nth-child(${i+1}) .informazioni-membro`);
     for (const key in team[i]) {
+        informazioniMembro.innerHTML += `<li >${key}:${team[i][key]}</li>`;
         console.log(`${key}:${team[i][key]}`);
     }
     console.log("--------------------------");
