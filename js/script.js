@@ -30,3 +30,9 @@ const team = [
         immagine: "barbara-ramos-graphic-designer.jpg"
     }
 ];
+for(let i=0;i<team.length;i++){
+    for (const key in team[i]) {
+        console.log(`${key}:${team[i][key]}`);
+    }
+    console.log("--------------------------");
+}
