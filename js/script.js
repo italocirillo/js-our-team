@@ -28,5 +28,5 @@ const team = [
         nome: "Barbara Ramos",
         ruolo: "Graphic Designer",
         immagine: "barbara-ramos-graphic-designer.jpg"
-    },
+    }
 ];
