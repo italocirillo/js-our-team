@@ -4,10 +4,34 @@
     margin: 0;
     box-sizing: 0;
 }
-body{
-    background-color: cadetblue;
+img{
+    max-width: 100%;
 }
-ul{
-    padding-left: 2em;
-    padding-bottom: 2em;
+/* COMUNE */
+.container{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 4em;
+}
+/* TIPOGRAFIA */
+h1{
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: 500;
+    word-spacing: 0rem;
+    color: rgb(67, 67, 67);
+    font-family: 'Roboto Mono', monospace;
+}
+.descrizione-sito{
+    padding-top: 1em;
+    color: gray;
+}
+.nome{
+    font-family: 'Playfair Display', serif;
+}
+.ruolo{
+    font-family: 'Roboto', sans-serif;
+    color: lightslategray;
+    font-size: 0.8rem;
 }
